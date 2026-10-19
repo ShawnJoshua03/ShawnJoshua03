@@ -30,10 +30,11 @@
 
 ## Experience
 
-- **Kroger**, Finance: AI sourcing RFP
-- **Owens Corning**: automation and anomaly detection
-- **RentRadar**, Founder: rental platform
-- **SASE**, South Central Regional Coordinator
+- **Kroger Finance**, Contracting Efficiencies & Enablement Intern · May–Aug 2026
+- **Kroger Technology & Digital**, Portfolio Analyst Intern · Jan–Aug 2025
+- **Owens Corning**, Data Analyst Intern · May–Aug 2024
+- **RentRadar**, Founder · May 2025–present
+- **SASE**, South Central Regional Coordinator · Jun 2026–present
 
 ## Featured projects
 
