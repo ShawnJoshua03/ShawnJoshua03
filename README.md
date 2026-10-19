@@ -28,6 +28,13 @@
 | **99.3%** | success rate for automated anomaly detection at Owens Corning |
 | 🏆 | Best Hardware Hack, MakeUC 2024 |
 
+## Experience
+
+- **Kroger**, Finance: AI sourcing RFP
+- **Owens Corning**: automation and anomaly detection
+- **RentRadar**, Founder: rental platform
+- **SASE**, South Central Regional Coordinator
+
 ## Featured projects
 
 Every project below has a live demo, CI on every push, and a README that lists its own limitations.
