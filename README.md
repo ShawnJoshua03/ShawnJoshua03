@@ -38,26 +38,60 @@
 
 ## Featured projects
 
-Every project below has a live demo, CI on every push, and a README that lists its own limitations.
+Each one has a live demo, and each README lists what the project still gets wrong.
 
-### 🩺 [Sepsis Early Warning](https://github.com/ShawnJoshua03/sepsis-early-warning) · [live demo](https://shawnjoshua03.github.io/sepsis-early-warning/)
-Hourly ICU sepsis risk model scored on the official PhysioNet 2019 Challenge utility metric. Evaluated on 4,441 held-out patients, split by patient, and it reports the false-alarm rate too.
-`Python` `scikit-learn` `pandas` `FastAPI` `pytest`
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://shawnjoshua03.github.io/sepsis-early-warning/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/sepsis-early-warning/HEAD/docs/utility_vs_threshold.png" alt="Sepsis Early Warning: utility vs. threshold"></a>
+<h3>🩺 Sepsis Early Warning</h3>
+Hourly ICU sepsis risk model scored on the official PhysioNet 2019 Challenge utility metric. Split by patient, 4,441 held-out patients, and it reports the false-alarm rate too.<br>
+<code>Python</code> <code>scikit-learn</code> <code>FastAPI</code><br>
+<a href="https://shawnjoshua03.github.io/sepsis-early-warning/"><b>Live demo</b></a> · <a href="https://github.com/ShawnJoshua03/sepsis-early-warning">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://shawnjoshua03.github.io/shrinkflation-sleuth/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/shrinkflation-sleuth/HEAD/docs/img/explorer.png" alt="Shrinkflation Sleuth explorer"></a>
+<h3>🛒 Shrinkflation Sleuth</h3>
+An AI agent that catches grocery shrinkflation and computes the hidden price-per-unit increase. Built in three days for the Google Cloud Rapid Agent Hackathon.<br>
+<code>Gemini</code> <code>Google ADK</code> <code>Elasticsearch</code> <code>MCP</code><br>
+<a href="https://shawnjoshua03.github.io/shrinkflation-sleuth/"><b>Live demo</b></a> · <a href="https://github.com/ShawnJoshua03/shrinkflation-sleuth">Code</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://shawnjoshua03.github.io/afib-ecg-classifier/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/afib-ecg-classifier/HEAD/docs/demo.png" alt="AFib ECG Classifier demo"></a>
+<h3>❤️ AFib ECG Classifier</h3>
+Reproducible single-lead ECG rhythm classification on PhysioNet/CinC 2017, with a held-out evaluation and a static in-browser demo.<br>
+<code>Python</code> <code>SciPy</code> <code>scikit-learn</code> <code>React</code><br>
+<a href="https://shawnjoshua03.github.io/afib-ecg-classifier/"><b>Live demo</b></a> · <a href="https://github.com/ShawnJoshua03/afib-ecg-classifier">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://shawnjoshua03.github.io/concert-radar/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/concert-radar/HEAD/docs/screenshot.png" alt="Concert Radar screenshot"></a>
+<h3>🎵 Concert Radar</h3>
+Concerts near you, ranked by how much you actually listen to each artist. Full-stack, with a no-login demo.<br>
+<code>FastAPI</code> <code>PostgreSQL</code> <code>Spotify API</code> <code>D3.js</code><br>
+<a href="https://shawnjoshua03.github.io/concert-radar/"><b>Live demo</b></a> · <a href="https://github.com/ShawnJoshua03/concert-radar">Code</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://shawnjoshua03.github.io/photomosaic-poster/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/photomosaic-poster/HEAD/docs/demo.jpg" alt="Photomosaic Poster demo"></a>
+<h3>🖼️ Photomosaic Poster</h3>
+Turns hundreds of photos into one print-ready mosaic poster, handling phone photos and print-shop rules (CMYK, DPI, file-size limits).<br>
+<code>Python</code> <code>CLI</code> <code>image processing</code><br>
+<a href="https://shawnjoshua03.github.io/photomosaic-poster/"><b>Live demo</b></a> · <a href="https://github.com/ShawnJoshua03/photomosaic-poster">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://yourvirtualscrapbook.vercel.app"><img src="https://raw.githubusercontent.com/ShawnJoshua03/yourvirtualscrapbook/HEAD/public/demo/eli/01-1600.jpg" alt="Your Virtual Scrapbook demo page"></a>
+<h3>🎂 Your Virtual Scrapbook</h3>
+A birthday book from everyone who loves them: every friend's page is designed around what they wrote.<br>
+<code>Next.js</code> <code>GSAP</code> <code>Supabase</code><br>
+<a href="https://yourvirtualscrapbook.vercel.app"><b>Live demo</b></a> · <a href="https://github.com/ShawnJoshua03/yourvirtualscrapbook">Code</a>
+</td>
+</tr>
+</table>
 
-### 🛒 [Shrinkflation Sleuth](https://github.com/ShawnJoshua03/shrinkflation-sleuth) · [live demo](https://shawnjoshua03.github.io/shrinkflation-sleuth/)
-An AI agent that catches grocery shrinkflation and computes the hidden price-per-unit increase. Built in three days for the Google Cloud Rapid Agent Hackathon.
-`Gemini` `Google ADK` `Elasticsearch` `MCP` `Python`
-
-### 🎵 [Concert Radar](https://github.com/ShawnJoshua03/concert-radar) · [live demo](https://shawnjoshua03.github.io/concert-radar/)
-Concerts near you, ranked by how much you actually listen to each artist. Full-stack, with a no-login demo.
-`FastAPI` `PostgreSQL` `Spotify API` `Ticketmaster API` `D3.js`
-
-### 🖼️ [Photomosaic Poster](https://github.com/ShawnJoshua03/photomosaic-poster)
-A CLI that turns hundreds of photos into a print-ready mosaic poster, handling HEIC/RAW input and print-shop rules (CMYK, DPI, file-size limits).
-`Python` `CLI` `image processing`
-
-### 🏠 [FRIP](https://github.com/ShawnJoshua03/FRIP) · [live](https://frip-rho.vercel.app) &nbsp;|&nbsp; 🌍 [World Health &amp; Wealth Dashboard](https://github.com/ShawnJoshua03/world-health-wealth-dashboard) · [live](https://world-health-wealth-dashboard.vercel.app)
-A fractional rental-investment platform (Flask, MongoDB, bcrypt auth), and an interactive D3 dashboard linking GDP to life expectancy across countries.
+**Also:** 🏠 [FRIP](https://github.com/ShawnJoshua03/FRIP) ([live](https://frip-rho.vercel.app)), a fractional rental-investment platform (Flask, MongoDB) · 🌍 [World Health &amp; Wealth Dashboard](https://github.com/ShawnJoshua03/world-health-wealth-dashboard) ([live](https://world-health-wealth-dashboard.vercel.app)), an interactive D3 dashboard · 🔎 [RentRadar](https://www.rentradar.org), the rental platform I founded
 
 ## Tech I work with
 
