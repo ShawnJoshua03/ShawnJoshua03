@@ -22,6 +22,7 @@
 
 | | |
 |---|---|
+| **9 of 9** | surveyed medical and bio trainees who said they would use [Jeremy.ai](https://github.com/ShawnJoshua03/Jeremy.ai), my CalHacks 13 AR surgery trainer |
 | **93%** | of septic ICU patients flagged in time, a median 12 hours before onset ([Sepsis Early Warning](https://github.com/ShawnJoshua03/sepsis-early-warning)) |
 | **$48M+** | AI sourcing RFP I led at Kroger Finance |
 | **50+** | active users on RentRadar, a rental platform I founded |
@@ -39,6 +40,24 @@
 ## Featured projects
 
 Each one has a live demo, and each README lists what the project still gets wrong.
+
+<a href="https://jeremywantstobeasurgeon.us/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/ShawnJoshua03/HEAD/assets/jeremy-ai-banner.svg" alt="Jeremy.ai: an AR surgical-training simulator for Meta Quest 3, built at CalHacks 13. Measure, decide, explain." width="100%"></a>
+
+### 🩻 Jeremy.ai · CalHacks 13
+
+An **AR surgical-training simulator for Meta Quest 3**. You operate on a virtual gallbladder with your bare hands in passthrough, and an instructor can watch the attempt live from any browser.
+
+- **A score you can audit.** Scoring is deterministic Python: the same attempt always gets the same score. Claude only explains the result, its citations are checked against what actually happened, and a rule-based coach takes over if it is down.
+- **A coach that talks.** Cartesia speaks the feedback in the headset, and you can ask "why did I lose points?" out loud.
+- **A live instructor window.** Convex mirrors the session to a React dashboard with replay, notes, highlights, pause and retry.
+- **What a mistake would cost.** Every attempt gets an itemized, sourced OR-cost estimate, with prices refreshed by a custom Apify Actor.
+- **Built from a survey.** 9 of 9 medical and bio respondents said they would use it, and their asks set the roadmap.
+- **Honest about its limits.** The README lists what is verified (523 backend tests, live Cartesia audio) and what is not yet (a full headset run).
+
+<code>Unity 6</code> <code>Meta Quest 3</code> <code>FastAPI</code> <code>Claude</code> <code>Cartesia</code> <code>Convex</code> <code>Apify</code> <code>React</code><br>
+<a href="https://jeremywantstobeasurgeon.us/"><b>Live site</b></a> · <a href="https://github.com/ShawnJoshua03/Jeremy.ai">Code</a> · <a href="https://shawnjoshua03.github.io/stories/jeremy-ai/">Write-up</a>
+
+### More projects
 
 <table>
 <tr>
