@@ -43,6 +43,8 @@ Each one has a live demo, and each README lists what the project still gets wron
 
 <a href="https://jeremywantstobeasurgeon.us/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/ShawnJoshua03/HEAD/assets/jeremy-ai-banner.svg" alt="Jeremy.ai: an AR surgical-training simulator for Meta Quest 3, built at CalHacks 13. Measure, decide, explain." width="100%"></a>
 
+<p align="center"><a href="https://jeremywantstobeasurgeon.us/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/ShawnJoshua03/HEAD/assets/jeremy-ai-logo.jpg" alt="Jeremy.ai logo: a trainee wearing a VR headset" width="260"></a></p>
+
 ### 🩻 Jeremy.ai · CalHacks 13
 
 An **AR surgical-training simulator for Meta Quest 3**. You operate on a virtual gallbladder with your bare hands in passthrough, and an instructor can watch the attempt live from any browser.
