@@ -22,6 +22,7 @@
 
 | | |
 |---|---|
+| **1st place** | Digital Health Hackathon 2026 at Cincinnati Children's, with Cintrifuse, for [Aero](https://github.com/ShawnJoshua03/Aero-SMART-Home), a talking crane for clinicians |
 | **9 of 9** | surveyed medical and bio trainees who said they would use [Jeremy.ai](https://github.com/ShawnJoshua03/Jeremy.ai), my CalHacks 13 AR surgery trainer |
 | **93%** | of septic ICU patients flagged in time, a median 12 hours before onset ([Sepsis Early Warning](https://github.com/ShawnJoshua03/sepsis-early-warning)) |
 | **$48M+** | AI sourcing RFP I led at Kroger Finance |
@@ -39,7 +40,21 @@
 
 ## Featured projects
 
-Each one has a live demo, and each README lists what the project still gets wrong.
+Most have a live demo. Each README lists what the project still gets wrong.
+
+<a href="https://github.com/ShawnJoshua03/Aero-SMART-Home"><img src="https://raw.githubusercontent.com/ShawnJoshua03/Aero-SMART-Home/HEAD/docs/images/banner.png" alt="Aero: know what changed before you walk into the room. A talking crane that reads your patient's check-ins, flags what is unusual for that patient, and takes your notes by voice." width="100%"></a>
+
+### Aero · 1st place, Digital Health Hackathon 2026
+
+A clinician view for SMART@Home, the Cincinnati Children's platform where patients answer short check-ins at home. Clinicians normally see those answers as rows in a table, so Aero reads them instead. Hold him, ask "what changed for Maya?", and he compares this week with last week and with her own baseline, then answers in one sentence, out loud.
+
+- Every fact comes from a lookup. Claude Haiku picks a tool, the tool does the maths, Cartesia speaks the result. If there is nothing on the question, he says so.
+- Say "notes for today: ..." and he adds a dated line to the most recent past visit. He only does this when the clinician asks.
+- A team of three. I built his model loop and voice, the widget canvas and its widgets, and the README. Raihan Rafeek built the Fly and Anomalies pages and the dock.
+- All patient data is invented. Anomaly detection is plain statistics on each patient's own history, and the researcher view is not built.
+
+<code>Electron</code> <code>JavaScript</code> <code>Claude Haiku</code> <code>Cartesia</code><br>
+<a href="https://github.com/ShawnJoshua03/Aero-SMART-Home">Code</a> · <a href="https://shawnjoshua03.github.io/stories/aero-smart-home/">Write-up</a>
 
 <a href="https://jeremywantstobeasurgeon.us/"><img src="https://raw.githubusercontent.com/ShawnJoshua03/ShawnJoshua03/HEAD/assets/jeremy-ai-banner.svg" alt="Jeremy.ai: an AR surgical-training simulator for Meta Quest 3, built at CalHacks 13. Measure, decide, explain." width="100%"></a>
 
@@ -108,6 +123,22 @@ Turns hundreds of photos into one print-ready mosaic poster, handling phone phot
 A birthday book from everyone who loves them: every friend's page is designed around what they wrote.<br>
 <code>Next.js</code> <code>GSAP</code> <code>Supabase</code><br>
 <a href="https://yourvirtualscrapbook.vercel.app"><b>Live demo</b></a> · <a href="https://github.com/ShawnJoshua03/yourvirtualscrapbook">Code</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ShawnJoshua03/floodplain-creep"><img src="https://shawnjoshua03.github.io/images/floodplain-creep.jpg" alt="Floodplain Creep: a dark map of Dhaka flood depth beside a sheet of building counts for Badda"></a>
+<h3>Floodplain Creep</h3>
+New buildings in modeled river flood zones in Dhaka, by neighborhood. Counts under 20 are hidden, Gemini briefs are checked number by number, and the app shows its own measured accuracy: 55%, on labels a person has not audited yet.<br>
+<code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>React</code> <code>MapLibre</code><br>
+<a href="https://github.com/ShawnJoshua03/floodplain-creep">Code</a> · <a href="https://shawnjoshua03.github.io/stories/floodplain-creep/">Write-up</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ShawnJoshua03/claude-coding-hub"><img src="https://shawnjoshua03.github.io/images/claude-coding-hub.jpg" alt="claude-coding-hub terminal demo: the hub refuses a shell command whose prompt does not show the real action"></a>
+<h3>claude-coding-hub</h3>
+An MCP server that lets Claude Code hand work to Codex, Gemini CLI, Grok and OpenCode. Each worker gets its own git worktree, and every risky action needs a human decision on the exact request. The lead model has no approve tool to call.<br>
+<code>TypeScript</code> <code>MCP</code> <code>SQLite</code> <code>git worktrees</code><br>
+<a href="https://github.com/ShawnJoshua03/claude-coding-hub">Code</a> · <a href="https://shawnjoshua03.github.io/stories/claude-coding-hub/">Write-up</a>
 </td>
 </tr>
 </table>
